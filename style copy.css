@@ -1,0 +1,179 @@
+.logo {
+    width: 70px;
+    height: 70px;
+
+    &:hover {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: seashell;
+    border: 1px solid black;
+    min-width: 600px;
+}
+
+.logo-container {
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.nav-items>ul {
+    list-style-type: none;
+    display: flex;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-items>ul {
+        display: inline;
+    }
+
+    .header {
+        justify-content: unset;
+    }
+
+    .res-card {
+        min-width: 300px;
+    }
+}
+
+.nav-items>ul>li {
+    font-size: 1.5em;
+    font-family: "Cedarville Cursive", cursive;
+    padding: 10px;
+    margin: 10px 15px;
+}
+
+.res-card,
+.shimmer-card {
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    min-height: 450px;
+    margin: 30px;
+    text-overflow: ellipsis;
+    background-color: seashell;
+
+    &:hover {
+        border-radius: 20px;
+        border: 2px solid black;
+        box-shadow: 5px 5px rosybrown;
+        cursor: pointer;
+    }
+}
+
+
+.res-card-image {
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+}
+
+.res-card-ratings>.star {
+    width: 30px;
+    height: auto;
+}
+
+.res-card-content>p,
+h3,
+h4 {
+    font-family: "Cedarville Cursive", cursive;
+
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-card-content {
+    word-break: break-all;
+}
+
+.res-container,
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#Loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shimmer-container {
+    margin-top: 40px;
+}
+
+#login {
+    margin-right: 20px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.search-input {
+    margin-left: 20px;
+    border: 2px solid black;
+
+    &[placeholder] {
+        text-align: center;
+        font-family: "Cedarville Cursive", cursive;
+    }
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.restaurant-menu {
+    text-align: center;
+}
+
+.restaurant-menu>ul {
+    display: inline-block;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.restaurant-menu>h1 {
+    margin-left: 70px;
+}
+
+.user-card {
+    padding: 10px;
+    margin-right: 30px;
+    display: inline-block;
+    text-overflow: ellipsis;
+
+    &:hover {
+        border-radius: 20px;
+        border: 2px solid black;
+        box-shadow: 5px 5px rosybrown;
+        cursor: pointer;
+    }
+}
+
+.about-us {
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.res-container>a {
+    text-decoration: none;
+    color:olivedrab
+
+}

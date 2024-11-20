@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/AkbarAwais/SwiggyClone/static/js/main.25fb979f.js",
+    "static/media/upArrow.svg": "/AkbarAwais/SwiggyClone/static/media/upArrow.4c6abf93e5f81056680a18aefc73d87e.svg",
+    "static/media/downArrow.svg": "/AkbarAwais/SwiggyClone/static/media/downArrow.1edfab86f389055c97b80ec14e52f85c.svg",
+    "index.html": "/AkbarAwais/SwiggyClone/index.html",
+    "main.25fb979f.js.map": "/AkbarAwais/SwiggyClone/static/js/main.25fb979f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.25fb979f.js"
+  ]
+}
