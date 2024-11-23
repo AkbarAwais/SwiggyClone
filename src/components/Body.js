@@ -62,9 +62,9 @@ const Body = () => {
                 <div className="max-w-auto">
                     <div className=" flex items-center justify-center">
                         <button className="m-5 text-nowrap" onClick={() => {
-                            setRestaurantDataObj(restaurantDataObj.filter(restaurant => restaurant.info.avgRating >= 4));
+                            setRestaurantDataObj(restaurantDataObj.filter(restaurant  => restaurant.info.avgRating >= 4));
                         }}>Top Rated Restaurant</button>
-                        <input className="m-2 focus:border-hidden bg-transparent text-center rounded-sm" type="text" placeholder="Enter Restaurant" onKeyUp={(e) => {
+                        <input className="m-2 border-gray-900 bg-gray-200 rounded-lg placeholder:text-blue-900 text-center focus:border-hidden" type="text" placeholder="Enter Restaurant" onKeyUp={(e) => {
                             e.target.value.length >= 2 ? debouncedSearch(e.target.value) : fetchData();
                         }} />
                     </div>
