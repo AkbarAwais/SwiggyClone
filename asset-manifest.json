@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/AkbarAwais/SwiggyClone/static/js/main.25fb979f.js",
+    "main.js": "/AkbarAwais/SwiggyClone/static/js/main.fd8a9076.js",
     "static/media/upArrow.svg": "/AkbarAwais/SwiggyClone/static/media/upArrow.4c6abf93e5f81056680a18aefc73d87e.svg",
     "static/media/downArrow.svg": "/AkbarAwais/SwiggyClone/static/media/downArrow.1edfab86f389055c97b80ec14e52f85c.svg",
     "index.html": "/AkbarAwais/SwiggyClone/index.html",
-    "main.25fb979f.js.map": "/AkbarAwais/SwiggyClone/static/js/main.25fb979f.js.map"
+    "main.fd8a9076.js.map": "/AkbarAwais/SwiggyClone/static/js/main.fd8a9076.js.map"
   },
   "entrypoints": [
-    "static/js/main.25fb979f.js"
+    "static/js/main.fd8a9076.js"
   ]
 }
